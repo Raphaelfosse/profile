@@ -1,0 +1,88 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+body {
+  background-color: #FFFAF0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color:  #A52A2A;
+  font-size: 45px;
+}
+
+h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #8B0000;
+  margin: auto;
+  padding: auto;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  color: brown;
+  text-decoration: overline;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.contenu {
+  margin: 30 auto;
+  width: 800px;
+  border: solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.contenu h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+img {
+  width: 400px;
+  height: 350px;
+  margin: 20px 10px;
+  border: solid black;
+}
+
+.profil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin: auto;
+  height: auto;
+  padding: auto;
+}
+
+.description {
+  text-align: center;
+}
+
+.profil {
+  text-align: center;
+  border: solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888888;
+  margin: 30 auto;
+  width: 600px;
+}
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+li {
+margin-bottom:15px;
+}
