@@ -1,66 +1,105 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Basic info</title>
-
-    <!-- Google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
-
-    <!-- Fontawesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Your style -->
+    <title>Basic infos</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   </head>
+
   <body>
-    <div class="profil"><img src="images/photo_git.jpg" alt="Moi petit">
-    <h1>Raphaël FOSSE</h1>
-    <h2>Diplômé d'un master en marketing digital et actuellement en formation de développement web</h2>
-    <p>Après 5 ans en école de commerce, je ne maitrisais toujours pas les bases du développement web alors que ce domaine m'intérèsse énormement ! So wait and see.</p>
+    <div class="container">
+      <div class="card text-center">
+        <img src="images/photo_git.jpg" alt="Raphaël FOSSE" id="img-profile" class="img-circle">
+        <h1>Raphaël FOSSE</h1>
+        <h2>Student @ Le Wagon</h2>
 
-      <ul>
-        <li><a href="https://www.facebook.com/Rapha93" alt="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
-        <li><a href="https://www.linkedin.com/in/raphaelfosse/"><i class="fa fa-linkedin" aria-hidden="true"></i>
-        Linkedin</a></li>
-        <li><a href="https://twitter.com/RaphaelFosse"><i class="fa fa-twitter" aria-hidden="true"></i>
-        Twitter</a></li>
-      </ul>
+        <p>
+          Diplômé d'une école de commerce en marketing digital mon but, grâce au Wagon, est de <strong>me démarquer de la concurrence</strong>.
+        </p>
+        <a href="http://lewagon.com" class="btn-red">See for yourself</a>
+      </div>
+      <div class="card text-center">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/Rapha93">
+                <i class="fa fa-facebook"></i> Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/raphaelfosse/">
+                <i class="fa fa-linkedin"></i> Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/RaphaelFosse">
+                <i class="fa fa-twitter"></i> Twitter
+              </a>
+            </li>
+          </ul>
+      </div>
+
+      <div class="card text-center">
+          <h2>My Favorite movies</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/charlie.jpg" alt="Charlie et la chocolaterie">
+                </td>
+                <td>
+                  <h3>Charlie et la chocolaterie</h3>
+                  <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/sons.png" alt="Sons Of Anarchy">
+                </td>
+                <td>
+                  <h3>Sons Of Anarchy</h3>
+                  <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/split.jpg" alt="Split">
+                </td>
+                <td>
+                  <h3>Split</h3>
+                  <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card text-center">
+          <h2>About this page</h2>
+          This page has been coded during the <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire <life class=" "></life>
+
+          <ul>
+           <li>
+             <a href="#">
+               <i class="fa fa-heart"></i>
+             </a>
+           </li>
+           <li>
+             <a href="#">
+               <i class="fa fa-share"></i>
+             </a>
+           </li>
+           <li>
+             <a href="#">
+               <i class="fa fa-star"></i>
+             </a>
+           </li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-    <div class="contenu"><h2>My favorites TV show</h2>
-    <table>
-      <tbody>
-        <div class="film"><tr>
-          <td>
-            <img src="images/negan.jpg" alt="The walking dead">
-          </td>
-          <td>
-            <div class="description"><h3>The walking dead</h3>
-            <p>Best TV show ever : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p></div>
-          </td>
-        </tr></div>
-
-        <div class="film"><tr>
-          <td>
-            <img src="images/sons.png" alt="Sons of Anarchy">
-          </td>
-          <td>
-            <div class="description"><h3>Sons of Anarchy</h3>
-            <p>My current best tv show : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p></div>
-          </td>
-        </tr> </div>
-
-        <div class="film"><tr>
-          <td>
-            <img src="images/chut.jpg" alt="Chuuuut">
-          </td>
-          <td>
-            <div class="description"><h3>I'm not movie guy</h3>
-            <p>I dont like movies that much, so i had to tell the world : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p></div>
-          </td>
-        </tr></div>
-      </tbody>
-    </table> </div>
   </body>
 </html>
-
